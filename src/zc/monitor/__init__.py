@@ -56,7 +56,7 @@ class Server:
         else:
             try:
                 res = command(connection, *args)
-            except Exception, v:
+            except Exception as v:
                 traceback.print_exc(100, connection)
                 print >> connection, "%s: %s\n" % (v.__class__.__name__, v)
             else:
@@ -99,7 +99,7 @@ def start(address):
     try:
         global last_listener
         last_listener = zc.ngi.async.listener(ourAddress, Server)
-    except socket.error, e:
+    except socket.error as e:
         if e.args[0] == errno.EADDRINUSE:
             # Don't kill the process just because somebody else has our port.
             # This might be a zopectl debug or some other innocuous problem.
