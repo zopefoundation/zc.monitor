@@ -2,6 +2,12 @@
 Change History
 ==============
 
+Unreleased
+----------
+
+- Use new Python 2.6/3.x compatible exception syntax.
+
+
 0.3.1 (2012-04-27)
 ------------------
 
