@@ -2,8 +2,8 @@
 Change History
 ==============
 
-0.5.0 (unreleased)
-------------------
+0.4.0.post1 (2019-12-06)
+------------------------
 
 - Fix change log on PyPI.
 
