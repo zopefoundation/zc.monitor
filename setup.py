@@ -13,7 +13,7 @@ setup(
     author_email='jim@zope.com',
     license='ZPL 2.1',
     keywords='zope3',
-    description=open('README.txt').read(),
+    description=open('README.txt').read().strip(),
     long_description=long_description,
     url='https://github.com/zopefoundation/zc.monitor',
     classifiers=[
