@@ -4,7 +4,7 @@ name = 'zc.monitor'
 
 long_description = (open('src/zc/monitor/README.txt').read() +
                     "\n\n" +
-                    open('src/zc/monitor/CHANGES.txt').read())
+                    open('CHANGES.rst').read())
 
 setup(
     name=name,

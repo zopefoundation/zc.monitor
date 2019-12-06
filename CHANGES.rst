@@ -2,8 +2,14 @@
 Change History
 ==============
 
-Unreleased
-----------
+0.5.0 (unreleased)
+------------------
+
+- Fix change log on PyPI.
+
+
+0.4.0 (2019-12-06)
+------------------
 
 - Use new Python 2.6/3.x compatible exception syntax. (This does not mean that
   this package is already Python 3 compatible.)
