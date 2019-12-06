@@ -8,14 +8,25 @@ long_description = (open('src/zc/monitor/README.txt').read() +
 
 setup(
     name = name,
-    version = '0',
+    version = '0.4.dev0',
     author = 'Jim Fulton',
     author_email = 'jim@zope.com',
     license = 'ZPL 2.1',
     keywords = 'zope3',
     description=open('README.txt').read(),
     long_description=long_description,
-
+    classifiers = [
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Zope Public License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Topic :: Internet :: WWW/HTTP',
+    ],
     packages = find_packages('src'),
     namespace_packages = ['zc'],
     package_dir = {'': 'src'},
