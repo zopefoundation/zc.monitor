@@ -15,6 +15,7 @@ setup(
     keywords = 'zope3',
     description=open('README.txt').read(),
     long_description=long_description,
+    url='https://github.com/zopefoundation/zc.monitor',
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
